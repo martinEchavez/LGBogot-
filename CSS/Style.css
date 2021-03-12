@@ -3,10 +3,10 @@ body {
 }
 
 .header {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     color: #fff;
-    background-color: black;
+    background-color: white;
 }
 
 .content {
@@ -21,18 +21,22 @@ body {
 .header-carousel {
     position: absolute;
     width: 100%;
-    height: 81%;
+    height: 90vh;
     overflow: hidden;
 }
 
 .content h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 8px;
 }
 
 .content p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto1 {
     font-size: 20px;
-    display: block;
 }
 
 .colorLg {
@@ -70,40 +74,10 @@ body {
     color: #fff;
 }
 
-.circle-icon {
-    color:#fff;
-    background: #009640;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
-.border {
-    border: solid 1px black;
-    background-color: white;
-    padding: 2px 2px;
-}
-
-.cardImg {
-    border-radius: 10px;
-}
-
-@media (max-width: 1200px) {
-    .header {
-        height: 60vh;
-    }
-
-    .header-carousel {
-        height: 60%;
-    }
-
-    .pagos {
-        width: 450px;
-        height: 100px;
-    }
-}
-
 @media (max-width: 992px) {
+    .galeria {
+        width: 100%;
+    }
     .pagos {
         width: 350px;
         height: 80px;
@@ -112,24 +86,25 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        height: 50vh;
+        height: 40vh;
     }
 
     .header-carousel {
-        height: 50%;
+        height: 40%;
     }
 
     .content {
         max-width: 50Rem;
         padding-left: 1rem;
+        padding-top: 1rem;
         padding-right: 1rem;
     }
 
     .content h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .content p {
-        font-size: 1rem;
+        font-size: 15px;
     }
 
     .pagos {
@@ -140,28 +115,27 @@ body {
 
 @media (max-width: 576px) {
     .header {
-        height: 40vh;
+        height: 30vh;
     }
 
     .header-carousel {
-        height: 40%;
+        height: 30%;
+    }
+
+    .content {
+        padding-bottom: 2rem;
     }
 
     .content h1 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 2;
     }
     .content p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .pagos {
         width: 300px;
         height: 100px;
-    }
-
-    .ImgBig {
-        width: 300px;
-        height: 300px;
     }
 }
