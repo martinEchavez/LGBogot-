@@ -16,41 +16,6 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./IMG/lg-logo.png" width="120px" height="59px" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicio"><strong>Servicios</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ubicacion"><strong>Ubicación</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#domicilios"><strong>Domicilios</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pagos"><strong>Medios de
-                                pago</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto"><strong>Contacto</strong></a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-danger" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
     <header class="header">
         <div class="carousel slide header-carousel" data-ride="carousel">
             <div class="carousel-inner">
@@ -65,13 +30,42 @@
                 </div>
             </div>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logolg" src="./IMG/lg-logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicio"><strong>Servicios</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ubicacion"><strong>Ubicación</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#domicilios"><strong>Domicilios</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pagos"><strong>Medios de
+                                    pago</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto"><strong>Contacto</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="content">
-            <p>Bienvenido</p>
             <h1><strong>Servicio técnico LG Bogotá</strong></h1>
+            <p>Nos desplazamos a su domicilio para revisar su televisor
+            </p>
             <a class="btn btn-danger btn-lg" href="https://wa.me/573017668404/?text=Hola%20soporte%20%20Lg"
-                target="_blank">
-                <strong>Escribir
-                    Ahora</strong></a>
+                target="_blank">Pulsa para llamar</a>
         </div>
     </header>
 
@@ -85,53 +79,127 @@
         <!--Servicio-->
         <div class="row">
             <div class="col-md-6 mt-2">
-                <h2>Reparaciones</h2>
-                <p class="texto1">Somos especialistas en la reparación de todo tipo de <strong
-                        class="colorLg">Televisores LG</strong>,
-                    comunícate con nosotros.</p>
+                <div>
+                    <img class="img_content" src="./IMG/hombre-reparando-televisor.jpg" alt="Reparación lavadora">
+                </div>
+            </div>
+            <div class="col-md-6 mt-2">
+                <div class="card_content">
+                    <p class="titulo mt-5">Acerca de Nosotros</p>
+                    <h2>Somos una empresa dedicada al mantenimiento y reparación de Televisores LG a domicilio.</h2>
+                    <p class="subtitulo m-5">Reparamos Smart TV, Televisores plasma, curvos, de última generación. Estamos
+                        capacitados y especializados en mano de obra y suministramos repuestos
+                        originales, garantizando la satisfacción en el servicio.
+                    </p>
+                    <a class="btn btn-outline-danger btn-lg"
+                        href="https://wa.me/573017668404/?text=Hola%20soporte%20%20Lg" target="_blank">Pulsa para
+                        llamar</a>
+                </div>
+            </div>
+        </div>
+        <p class="titulo_reparacion">Televisores Que Reparamos</p>
+        <div class="row">
+            <div class="col-md-6 mt-2">
                 <img class="galeria" src="./IMG/Televisor1.jpg" alt="Televisor">
             </div>
             <div class="col-md-6 mt-2">
-                <h2>Mantenimiento</h2>
-                <p class="texto1">Ofrecemos servicios de mantenimiento de <strong class="colorLg">Televisores
-                        LG</strong>,
-                    contamos con mas de 12 años de experiencia en el mercado.</p>
                 <img class="galeria" src="./IMG/Televisor2.jpg" alt="Televisor">
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 mt-2">
-                <h2>Instalaciones</h2>
-                <p class="texto1">Prestamos el servicio de instalación de televisores de las marcas LG en toda Bogotá y
-                    municipios cercanos.</p>
                 <img class="galeria" src="./IMG/Televisor3.JPG" alt="Televisor">
             </div>
             <div class="col-md-6 mt-2">
-                <h2>Garantía</h2>
-                <p class="texto1">Ofrecemos garantia en los repuestos de <strong class="colorLg">Televisores
-                        LG</strong>, nuestros clientes nos recomiendan.</p>
                 <img class="galeria" src="./IMG/Televisor.jpg" alt="Televisor">
             </div>
         </div>
     </section>
 
+    <!--Nuestro servicios-->
     <section>
-        <div class="bg-secondary mt-3">
+        <div class="nuestro_servicio">
             <div class="row">
-                <div class="col center" style="font-size: 25px; font-weight: bold; color: aliceblue;">
-                    <p>Comunícate con nosotros</p>
-                    <p>3017668404 - PBX-8238592</p>
+                <p style="font-size: 40px;">Nuestros Servicios</p>
+                <p style="font-size: 20px;">Técnicos expertos en Línea Blanca con una amplia experiencia.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card_servicio">
+                            <img src="./IMG/icono-tv.png" alt="iconoTV">
+                            <h2>Smart TV</h2>
+                            <p>Reparamos todo tipo de Televisores, digitales y de pared. Contamos con
+                                técnicos calificados para reparar y realizar mantenimiento preventivo de su Televisor.
+                                Todos los servicios tienen garantía de un año.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card_servicio">
+                            <img src="./IMG/icon-05-free-img.png" alt="">
+                            <h2>Limpieza De Partes</h2>
+                            <p>
+                                Dentro del mantenimiento se limpian piezas y repuestos para que tengan un optimo
+                                funcionamiento.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card_servicio">
+                            <img src="./IMG/icon-09-free-img.png" alt="">
+                            <h2>Targetas</h2>
+                            <p>Se Programan y se reparan tarjetas de Televisores LG, Smart Tv, Televisores curvos, entre
+                                otros.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container center" id="servicio">
+        <!--Servicio-->
+        <div class="row">
+            <div class="col-md-6 mt-2">
+                <div class="card_content2">
+                    <p class="titulo">Enviaremos Un Técnico</p>
+                    <p>En el menor tiempo posible.</p>
+                    <p style="font-size: 25px; color: #ae1a48;">
+                        Técnicos Profesionales
+                    </p>
+                    <p class="subtitulo">Para garantizar la vida útil de su máquina o electrodoméstico es recomendado
+                        realizar un
+                        mantenimiento preventivo cada dos años.</p>
+                    <p style="font-size: 25px; color: #ae1a48;">
+                        Calidad En El Servicio
+                    </p>
+                    <p class="subtitulo">Es importante realizar una correcta limpieza de la máquina para preservar su
+                        imagen y evitar el deterioro derivado de la grasa y el óxido.</p>
+                    <p style="font-size: 25px; color: #ae1a48;">
+                        Repuestos Originales
+                    </p>
+                    <p class="subtitulo">Después de revisar el electrodoméstico, le informamos cual repuesto se debe
+                        cambiar e inmediatamente se solicita al almacén para ser instalado.</p>
+                    <a class="btn btn-outline-danger btn-lg"
+                        href="https://wa.me/573017668404/?text=Hola%20soporte%20%20Lg" target="_blank">Pulsa para
+                        llamar</a>
+                </div>
+            </div>
+            <div class="col-md-6 mt-2">
+                <iframe class="videoYoutube" src="https://www.youtube.com/embed/es1EmfbbSOQ?autoplay=1&mute=0&loop=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
     <!--Ubicación-->
     <section class="container center">
-        <h4 class="colorSamsung mt-2">Ubicación</h4>
+        <h4 class="titulo mt-4">Estamos Ubicación</h4>
         <div id="ubicacion" class="row">
             <div class="col-md-12">
-                <h4>Sede principal – Centro</h4>
+                <h4 style="font-size: 25px; color: #ae1a48;">Sede principal – Centro</h4>
                 <p>Centro, San Cristóbal, Santa Fe,
                     Tunjuelito, Bosa, Kennedy, Fontibón, Engativá, Suba,
                     Barrios
@@ -140,7 +208,7 @@
                     Aranda, La Candelaria, Rafael Uribe Uribe, Ciudad
                     Bolivar.
                 </p>
-                <h4>Municipios</h4>
+                <h4 style="font-size: 25px; color: #ae1a48;">Municipios</h4>
                 <p>Soacha, Mosquera, Funza, Madrid, Chía, Cajicá, Cota,
                     La
                     Calera, Tenjo, Tabio, Sibaté, Zipaquirá y
@@ -163,7 +231,7 @@
     <section class="container center" id="domicilios">
         <div id="domicilio" class="row border p-2">
             <div class="col-md-6">
-                <h4>Servicio a domicilio</h4>
+                <h4 style="font-size: 25px; color: #ae1a48;">Servicio a domicilio</h4>
                 <hr>
                 <p>Si su Electrodomésticos <strong class="colorLg">LG</strong> ha
                     dejado de
@@ -178,7 +246,7 @@
                     <strong>Escribir Ahora</strong></a>
             </div>
             <div class="col-md-6">
-                <h4>Soporte LG</h4>
+                <h4 style="font-size: 25px; color: #ae1a48;">Soporte LG</h4>
                 <hr>
                 <img src="./IMG/lg-logo.png" alt="Logo">
             </div>
