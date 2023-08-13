@@ -96,13 +96,13 @@
 
 .nuestro_servicio {
     background-color: #ae1a48;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
 }
 
 .card_servicio {
-    background-color: #e02b64;
+    background-color: #ffffff;
     cursor: pointer;
     height: 300px;
     padding: 10px;
